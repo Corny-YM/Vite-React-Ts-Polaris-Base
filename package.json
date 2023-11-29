@@ -1,0 +1,48 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@shopify/polaris": "^10.16.1",
+    "@shopify/polaris-icons": "^6.7.0",
+    "@shopify/polaris-tokens": "^4.0.0",
+    "@tanstack/react-query": "^4.29.3",
+    "@types/node": "^16.11.11",
+    "add": "^2.0.6",
+    "axios": "^0.24.0",
+    "classnames": "^2.3.2",
+    "crypto-js": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash-es": "^4.17.21",
+    "path": "^0.12.7",
+    "qs": "^6.10.1",
+    "query-string": "^7.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.0.2",
+    "sass": "^1.44.0",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "eslint": "^8.53.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.4",
+    "typescript": "^5.2.2",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "unplugin-auto-import": "^0.12.1",
+    "vite": "^5.0.0"
+  }
+}
